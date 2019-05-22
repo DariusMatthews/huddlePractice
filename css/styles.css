@@ -1,0 +1,86 @@
+/* set up background size, color, image, make everthing inside body move to body relative position
+set font style, family, weight */
+body {
+  width: 1440px;
+  /* -when calling svg image use url(..imagepath/imagename); */
+  background-image: url(../images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 17.2px;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+/* place header image */
+.header-container {
+  padding: 55px 0 0 45px;
+  position: relative;
+}
+
+.middle-container {
+  margin-top: 85px;
+
+}
+
+.image-logo {
+  width: 200px;
+  height: 50px;
+}
+
+.image-webpage {
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.headings {
+  color: #f2f2f2;
+  margin-left: 57%;
+  padding-top: 20px;
+  width: 500px;
+}
+
+.butn {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(257, 40%, 49%);
+  font-size: 20px;
+  background: #f2f2f2;
+  padding: 10px 70px 15px 70px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #f5e9f5;
+  background-image: -webkit-linear-gradient(top, #f5e9f5, hsl(257, 40%, 49%));
+  background-image: -moz-linear-gradient(top, #f5e9f5, hsl(257, 40%, 49%));
+  background-image: -ms-linear-gradient(top, #f5e9f5, hsl(257, 40%, 49%));
+  background-image: -o-linear-gradient(top, #f5e9f5, hsl(257, 40%, 49%));
+  background-image: linear-gradient(to bottom, #f5e9f5, hsl(257, 40%, 49%));
+  text-decoration: none;
+}
+
+.footer-container {
+  margin-top: 180px;
+  margin-left: 1230px;
+}
+
+.link-image {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
